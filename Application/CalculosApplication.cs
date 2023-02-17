@@ -29,7 +29,7 @@ namespace Calculo.Application
         {
             if(numeros.numero2 == 0)
             {
-                throw new Exception ("Não pode dividir por 0");
+                throw new Exception ("Não pode dividir por 0.");
             }
 
             return numeros.Dividir();
