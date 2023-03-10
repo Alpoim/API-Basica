@@ -12,6 +12,10 @@ namespace Calculo.Application
     {
         public int Somar(Numeros numeros)
         {
+            if (numeros.numero2 == 0)
+            {
+                return 100 + numeros.numero1;
+            }
             return numeros.Somar();
 
         }
